@@ -44,6 +44,7 @@ function updateTime() {
       "A"
     )}</small></div>
     </div>
+    <a href="/">All cities</a>
     `;
   }
   
@@ -52,3 +53,4 @@ function updateTime() {
   
   let citiesSelectElement = document.querySelector("#city");
   citiesSelectElement.addEventListener("change", updateCity);
+  
